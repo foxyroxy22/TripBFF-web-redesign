@@ -95,7 +95,7 @@ form i {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 0.5vw;
+  gap: 10px;
   margin: 5vh 0;
 }
 .tab-btn li span {
@@ -177,6 +177,18 @@ form i {
 @media (max-width: 765px) {
   .tab-content > li ul li {
     width: calc((100% - 24px) / 2);
+  }
+  .tab-content > li .trip-box .trip-txt span {
+    font-size: 1.2rem;
+  }
+  .tab-content > li .trip-box .trip-txt p  {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .tab-content > li ul li {
+    width: 100%;
   }
   .tab-content > li .trip-box .trip-txt span {
     font-size: 1.2rem;
