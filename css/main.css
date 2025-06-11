@@ -110,6 +110,9 @@ header.down .gnb li:hover a {
 }
 
 @media (max-width: 765px) {
+  #main-visual {
+    background: url(../img/home/main_visual.tablet.png) no-repeat center / cover;
+  }
   #main-visual .main-txt h2 span {
     font-size: 5rem;
   }
@@ -119,6 +122,9 @@ header.down .gnb li:hover a {
 }
 
 @media (max-width: 450px) {
+  #main-visual {
+    background: url(../img/home/main_visual.mobile.png) no-repeat center / cover;
+  }
   #main-visual .main-txt h2 span {
     font-size: 3.5rem;
   }
@@ -534,6 +540,9 @@ section .more:hover a i {
 }
 
 @media (max-width: 765px) {
+  #blog {
+    padding: 100px 0;
+  }
   .blog-container .blog-item {
     width: calc((100% - 20px) / 2);
   }
@@ -654,6 +663,10 @@ section .more:hover a i {
   }
 }
 @media (max-width: 450px) {
+  #download {
+  background: url(../img/home/download-bg02.png) no-repeat center / cover;
+  background-attachment: static;
+}
   #download .download-btn li a {
     padding: 10px 15px;
   }
@@ -709,6 +722,9 @@ section .more:hover a i {
 }
 
 @media (max-width: 1024px) {
+  #shorts {
+    padding: 100px 0;
+  }
   #shorts .inner {
     flex-wrap: wrap;
   }
@@ -724,11 +740,12 @@ section .more:hover a i {
 @media (max-width: 550px) {
   #shorts .shorts-vid {
     flex-wrap: wrap;
+    gap: 20px;
   }
   #shorts .shorts-vid li {
     width: 100%;
   }
-  #shorts .shorts-vid li:nth-child(2n) {
+  #shorts .shorts-vid li:last-child {
     display: none;
   }
 }
