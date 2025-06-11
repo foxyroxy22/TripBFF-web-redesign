@@ -37,10 +37,16 @@ header .inner {
   padding: 20px 30px;
   background-color: rgba(255, 255, 255, 0.1);
   font-size: 2rem;
+  position: relative;
 }
 
 header .download-btn {
   display: none;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
 }
 header .download-btn a {
   display: block;
@@ -115,10 +121,13 @@ header h1 img {
 }
 
 .ham {
-  cursor: pointer;
-  /* width: 95px; */
   display: none;
-  justify-content: flex-end;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
 }
 .ham i {
   display: block;
@@ -129,6 +138,7 @@ header h1 img {
 @media (max-width: 1024px) {
   header .inner {
     padding: 20px 30px;
+    position: relative;
   }
   header h1 img {
     height: 40px;
@@ -140,13 +150,23 @@ header h1 img {
 
 @media (max-width: 765px) {
   header {
-    padding: 0  0px;
+    padding: 0 0px;
   }
   header .inner {
-    padding: 20px;
+    width: calc(100% - 40px);
+    height: 70px;
+    position: relative;
   }
   header .download-btn {
     display: block;
+  }
+  header h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    z-index: 1;
   }
   header h1 img {
     height: 30px;
@@ -191,7 +211,7 @@ footer .f-top .sns ul li a {
 }
 footer .f-top .sns ul li:hover a {
   background-color: var(--main-color);
-} 
+}
 footer .f-top .sns ul li i {
   font-size: 2.5rem;
   position: absolute;
