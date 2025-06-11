@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+:root {
+  --main-color: #e73a1e;
+  --sub-color: #5ac1d2;
+}
+
+/* header */
+header {
+  position: static;
+  margin-top: 30px;
+  transform: translateX(0);
+}
+header .inner {
+  border: 2px solid var(--main-color);
+}
+
+header .gnb li a {
+  color: var(--main-color);
+}
+header .gnb li:nth-child(4) a {
+  color: var(--sub-color);
+}
+header .ham i {
+  color: var(--main-color);
+}
+
+/* main */
+h3 {
+  text-align: center;
+  font-size: 5rem;
+  color: var(--main-color);
+  margin: 10vh 0 5vh;
+}
+
+@media (max-width: 1024px) {
+  h3 {
+    font-size: 4.5rem;
+  }
+}
+
+@media (max-width: 765px) {
+  h3 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+main .inner {
+  max-width: 950px;
+}
+
+.faq-list {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.faq-list li {
+  margin-bottom: 20px;
+  padding: 30px;
+  border: 1px solid var(--main-color);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.faq-list li .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.faq-list li .title p {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--main-color);
+}
+.faq-list li .title i {
+  font-size: 2rem;
+  color: var(--main-color);
+  transition: all 0.3s;
+}
+.faq-list li > p {
+  margin-top: 10px;
+  color: #fff;
+  display: none;
+  line-height: 1.5;
+  font-weight: 300;
+}
+.faq-list li.active {
+  background-color: var(--main-color);
+}
+.faq-list li.active .title p {
+  color: #fff;
+}
+.faq-list li.active .title i {
+  color: #fff;
+  transform: rotate(90deg);
+}
+.faq-list li.active > p {
+  display: block;
+}
+
+@media (max-width: 765px) {
+  .faq-list li .title p {
+    font-size: 2rem;
+  }
+  .faq-list li > p {
+    font-size: 1.4rem;
+  }
+}
+
+#stickers ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#stickers ul li {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#stickers ul li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#stickers h4 {
+  margin: 50px 0 20px;
+  text-align: center;
+  font-family: "Helvetica", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+#stickers p {
+  text-align: center;
+  margin-bottom: 100px;
+}
+#stickers p span {
+  font-weight: 500;
+}
+
+@media (max-width: 765px) {
+  #stickers ul {
+    gap: 15px;
+  }
+  #stickers ul li {
+    width: 150px;
+    height: 150px;
+  }
+  #stickers h4 {
+    font-size: 2rem;
+  }
+  #stickers p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #stickers ul {
+    gap: 15px;
+  }
+  #stickers ul li {
+    width: 100px;
+    height: 100px;
+  }
+}

@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TripBFF</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.ico" />
+
+    <!-- font -->
+    <link rel="stylesheet" href="css/font.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/trip.css" />
+
+    <!-- js -->
+    <script defer src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script defer src="js/common.js"></script>
+    <script defer src="js/side.js"></script>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <header>
+        <div class="inner">
+          <div class="download-btn">
+            <a href="#">Download</a>
+          </div>
+
+          <h1>
+            <a href="index.html"><img src="img/logo.png" alt="TripBFF" /></a>
+          </h1>
+
+          <nav>
+            <ul class="gnb">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="trip.html">Trips</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+            <!-- .mgnb-wrap -->
+          </nav>
+
+          <div class="ham">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <!-- .inner -->
+      </header>
+
+      <div class="mgnb-wrap">
+        <div class="mgnb">
+          <h2>
+            <img src="img/logo.png" alt="TripBFF" />
+          </h2>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="trip.html">Trips</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+          </ul>
+
+          <button type="button" class="btn-close">
+            <i class="fa-solid fa-x"></i>
+          </button>
+        </div>
+      </div>
+      <!-- .mgnb-wrap -->
+
+      <main>
+        <div class="inner">
+          <h3>explore plans</h3>
+
+          <form>
+            <input type="text" placeholder="search all plans" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+
+          <ul class="tab-btn">
+            <li><span class="tab-btn-cont active">#tropical</span></li>
+            <li><span class="tab-btn-cont">#hiking</span></li>
+            <li><span class="tab-btn-cont">#backpacking</span></li>
+            <li><span class="tab-btn-cont">#surfing</span></li>
+            <li><span class="tab-btn-cont">#nightlife</span></li>
+            <li><span class="tab-btn-cont">#yoga</span></li>
+            <li><span class="tab-btn-cont">#van_life</span></li>
+            <li><span class="tab-btn-cont">#nature</span></li>
+          </ul> 
+          <!-- .tab-btn -->
+
+          <ul class="tab-content">
+            <li class="tropical">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/tropical_01.png" alt="tropical img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Indonesia</span>
+                      <p>
+                        Bali solo trips (beach clubs, nights out, adventures)
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/tropical_02.png" alt="tropical img 2" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Vietnam</span>
+                      <p>Da nang girls brunch & beach.. hot springs park</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/tropical_03.png" alt="tropical img 3" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Spain</span>
+                      <p>MALLORCA: Beach Vibes & Girl Time</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/tropical_04.png" alt="tropical img 4" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Australia</span>
+                      <p>Sydeny city exploring and bondai beach - join us !</p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/tropical_05.png" alt="tropical img 5" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Philippines</span>
+                      <p>
+                        Palawan connections (snorkeling, lagoons, chill beach
+                        vibes)
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/tropical_06.png" alt="tropical img 6" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Costa Rica</span>
+                      <p>
+                        Surf mornings & jungle hikes in Santa Teresa – let’s
+                        link up!
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .tropical -->
+            <li class="hiking">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/hiking_01.png" alt="hiking img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Switzerland</span>
+                      <p>Chasing alpine views in Interlaken this weekend
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/hiking_02.png" alt="hiking img 2" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Canada</span>
+                      <p>Let’s hit the Banff trails — slow pace, good company
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/hiking_03.png" alt="hiking img 3" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>USA (California)</span>
+                      <p>Midweek reset hike in Runyon Canyon
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/hiking_04.png" alt="hiking img 4" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>South Korea</span>
+                      <p>Sunday Bukhansan walk & kimbap break
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/hiking_05.png" alt="hiking img 5" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Japan</span>
+                      <p>Fall leaves & trail talk at Mt. Takao
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/hiking_06.png" alt="hiking img 6" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>New Zealand</span>
+                      <p>Ridge hike & ridge talks in Queenstown
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .hiking -->
+            <li class="backpacking">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/backpacking_01.png" alt="backpacking img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Vietnam</span>
+                      <p>Let’s backpack together from Hanoi to Hoi An
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/backpacking_02.png" alt="backpacking img 2" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Laos</span>
+                      <p>Laos slow travel crew forming — no rush, just vibes
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/backpacking_03.png" alt="backpacking img 3" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Cambodia</span>
+                      <p>Hostel-hopping across Cambodia
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/backpacking_04.png" alt="backpacking img 4" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Mexico</span>
+                      <p>Budget backpackers’ link-up in Oaxaca
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/backpacking_05.png" alt="backpacking img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Nepal</span>
+                      <p>Let’s figure out Nepal together – no plans, just packs
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/backpacking_06.png" alt="backpacking img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Thailand</span>
+                      <p>Bangkok to Chiang Mai by train, open group backpack route
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .backpacking -->
+            <li class="surfing">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/surfing_01.png" alt="surfing img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Indonesia</span>
+                      <p>Dawn surf sessions & coconut breaks – Bali crew forming
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/surfing_02.png" alt="surfing img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Philippines</span>
+                      <p>Catch your first wave in Siargao with us
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/surfing_03.png" alt="surfing img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Indonesia</span>
+                      <p>Golden hour surf + pizza night in Canggu
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/surfing_04.png" alt="surfing img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Morocco</span>
+                      <p>Taghazout surf meetup – all levels welcome!
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/surfing_05.png" alt="surfing img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Mexico</span>
+                      <p>Longboard & sunrise in Sayulita — join the beach bunch
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/surfing_06.png" alt="surfing img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Sri Lanka</span>
+                      <p>Sri Lanka - Surfing and Partying
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .surfing -->
+            <li class="nightlife">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nightlife_01.png" alt="nightlife img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Japan</span>
+                      <p>Tokyo nights out – izakaya crawl & karaoke after
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nightlife_02.png" alt="nightlife img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Columbia</span>
+                      <p>Let’s dance in Medellín – rooftop vibes & reggaeton
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nightlife_03.png" alt="nightlife img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Hungary</span>
+                      <p>Pub hopping in Budapest — solo travelers meetup
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nightlife_04.png" alt="nightlife img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Thailand</span>
+                      <p>Full moon pregame in Koh Phangan
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nightlife_05.png" alt="nightlife img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Portugal</span>
+                      <p>Lisbon night markets & underground bars
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nightlife_06.png" alt="nightlife img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>South Korea</span>
+                      <p>Seoul club night + convenience store hangout tradition
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .nightlife -->
+            <li class="yoga">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/yoga_01.png" alt="yoga img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Indonesia</span>
+                      <p>Sunset yoga & ocean breath in Uluwatu
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/yoga_02.png" alt="yoga img 2" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Thailand</span>
+                      <p>Morning flow in Chiang Mai gardens – peaceful meetup
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/yoga_03.png" alt="yoga img 3" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>India</span>
+                      <p>Let’s stretch & journal by the Ganges, Rishikesh
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/yoga_04.png" alt="yoga img 4" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Italy</span>
+                      <p>Weekend reset: Vinyasa + chill in Barcelona
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/yoga_05.png" alt="yoga img 5" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Nicaragua</span>
+                      <p>Surf + yoga in Nicaragua
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/yoga_06.png" alt="yoga img 6" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Guatemala</span>
+                      <p>Lake Atitlan - Paddleboarding, yoga and more!!
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/.png" alt="hiking img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span></span>
+                      <p>
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .yoga -->
+            <li class="vanlife">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/vanlife_01.png" alt="vanlife img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>USA (California)</span>
+                      <p>Vanlife potluck & stargazing – Joshua Tree meetup
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/vanlife_02.png" alt="vanlife img 2" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Portugal</span>
+                      <p>Roadtrip / van life Portugal
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/vanlife_03.png" alt="vanlife img 3" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>New Zealand</span>
+                      <p>Finding NZ road crew -- everyone welcome
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/vanlife_04.png" alt="vanlife img 4" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Australia</span>
+                      <p>Parking by the beach in Byron – let’s cook together
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/vanlife_05.png" alt="vanlife img 5" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Sweden</span>
+                      <p>Van life in Sweden and Norway, Summer 25
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/vanlife_06.png" alt="vanlife img 6" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>World</span>
+                      <p>Van life / Hiking Dolomites or Scandinavia 2025
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .vanlife -->
+            <li class="nature">
+              <ul>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nature_01.png" alt="nature img 1" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Colombia</span>
+                      <p>Forest bathing & photo walk in British Colombia
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nature_02.png" alt="nature img 2" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Slovenia</span>
+                      <p>Wildflowers & waterfalls – spring walk in Slovenia
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nature_03.png" alt="nature img 3" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Germany</span>
+                      <p>Let’s hike and hammock in the Black Forest
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nature_04.png" alt="nature img 4" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Iceland</span>
+                      <p>Iceland road trip nature stops – join our group car
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nature_05.png" alt="nature img 5" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Chile</span>
+                      <p>Stargazing & s’mores in the Atacama
+                      </p>
+                    </a>
+                  </div>
+                </li>
+                <li class="trip-box">
+                  <div class="trip-img">
+                    <img src="img/trip/nature_06.png" alt="nature img 6" />
+                  </div>
+                  <div class="trip-txt">
+                    <a href="#">
+                      <span>Costa Rica</span>
+                      <p>River dips & tree talks – Costa Rica jungle walk
+                      </p>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- .nature -->
+          </ul>
+          <!-- .tab-cont -->
+        </div>
+        <!-- .inner -->
+      </main>
+
+      <footer>
+        <div class="inner">
+          <div class="f-top">
+            <a href="#"><img src="img/f-logo.png" alt="TripBFF"></a>
+            <div class="sns">
+              <p>Become our partner</p>
+              <ul>
+                <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <ul class="f-info">
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Safety Tips</a></li>
+            <li><a href="#">Community Guidelines</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <!-- #wrap -->
+
+    <script
+      src="https://kit.fontawesome.com/55f2933992.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

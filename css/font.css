@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/HelveticaNeue-LightExt.woff);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/HelveticaNeue-Extended.woff);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url(../font/HelveticaNeue-MediumExt.woff);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Super Peace";
+  src: url(../font/Super\ Peace.woff);
+}
