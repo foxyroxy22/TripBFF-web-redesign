@@ -79,7 +79,7 @@ header h1 img {
   top: 0;
   left: 0;
   background-color: #fff;
-  z-index: 99;
+  z-index: 999;
   padding: 0 20px;
 }
 .mgnb {
