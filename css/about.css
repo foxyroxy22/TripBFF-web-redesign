@@ -282,7 +282,7 @@ section h3 {
 
 @media (max-width: 530px) {
   #founders .inner {
-    height: 1300px;
+    height: 1400px;
   }
   #founders .inner .founder-box01 .founder-img {
     width: 250px;
@@ -402,6 +402,7 @@ section h3 {
 @media (max-width: 1024px) {
   #count ul {
     gap: 30px;
+    flex-wrap: wrap;
   }
   #count ul li {
     width: calc((100% - 60px) / 3);
@@ -423,6 +424,9 @@ section h3 {
     width: calc((100% - 40px) / 3);
     padding: 30px 10px;
   }
+  #count ul li .number {
+    height: 100px;
+  }
   #count ul li:nth-child(1) i,
   #count ul li:nth-child(2) i {
     right: 5%;
@@ -431,7 +435,29 @@ section h3 {
   font-size: 1.4rem;
 }
   #count ul li .number .content {
-    font-size: 5rem;
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 450px) {
+  #count ul {
+    gap: 20px;
+    justify-content: center;
+  }
+  #count ul li {
+    width: 80%;
+    height: 200px;
+    padding: 30px 10px;
+  }
+  #count ul li:nth-child(1) i,
+  #count ul li:nth-child(2) i {
+    right: 28%;
+  }
+  #count ul li > span {
+  font-size: 1.4rem;
+}
+  #count ul li .number .content {
+    font-size: 4rem;
   }
 }
 
@@ -468,4 +494,26 @@ section h3 {
   font-weight: 700;
   transform: translate(-50%, -50%);
   padding: 10px;
+}
+
+@media (max-width: 765px) {
+  #growth .globe {
+    width: 400px;
+    height: 400px;
+  }
+  #growth p {
+    width: 500px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #growth .globe {
+    width: 350px;
+    height: 350px;
+  }
+  #growth p {
+    width: 400px;
+    font-size: 1.6rem;
+  }
 }
